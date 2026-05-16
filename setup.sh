@@ -32,7 +32,7 @@ install_node "https://github.com/Kijai/ComfyUI-WanAnimatePreprocess.git"
 
 pip install opencv-python imageio imageio-ffmpeg decord
 
-HF_TOKEN="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"
+HF_TOKEN=""
 
 dl_model() {
     if [ ! -f "$2/$3" ]; then
